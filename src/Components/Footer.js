@@ -19,7 +19,7 @@ function Footer() {
                 <i class="fa fa-reddit w3-hover-opacity px-1"></i>
             </a>
             <hr />
-            <p class="w3-small">&copy; 2023 Gelo Baring <br />Powered by Energy Drinks and Vape Juice</p>
+            <p class="w3-small">&copy; 2023 Gelo Baring via React App <br />Powered by Energy Drinks and Vape Juice</p>
 
         </footer>
     )
