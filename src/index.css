@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-header: "Quicksand", sans-serif;
+  --main-subheader: "Lato", sans-serif;
+  --all-content: 'Poppins', sans-serif;
+  --main-color: #181D31;
+  --secondary-color: #678983;
+  --tertiary-color1: #E6DDC4;
+  --tertiary-color2: #F0E9D2;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--all-content);
+}

@@ -1,0 +1,23 @@
+.main-header {
+  font-family: var(--main-header);
+}
+
+.subheader {
+  font-family: var(--main-subheader);
+}
+
+/* orig stylings */
+.w3-sidebar {
+  width: 120px;
+  background: #222;
+}
+
+#myNavbar {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0
+  }
+}
