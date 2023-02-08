@@ -12,30 +12,31 @@ import photogrid8 from "../assets/images/AePup1.jpg"
 function Gallery() {
     return (
         <section class="w3-content w3-justify w3-text-light-grey w3-padding-64 container-fluid">
-            <h2 class="text-light fw-bolder mx-3">My Photo Gallery</h2>
-            <hr class="w3-opacity mx-3" />
-            <p class="mx-3">
-                This page is just for fun but feel free to browse!
-                I'm a hobbyist photographer focused on nature landscapes, portrait, and sepia-themed shots.
-                Hope you like it!
-            </p>
+            <div class="container align-items-center px-4">
+                <h2 class="text-light fw-bolder mx-3">My Photo Gallery</h2>
+                <hr class="w3-opacity mx-3" />
+                <p class="mx-3">
+                    This page is just for fun but feel free to browse!
+                    I'm a hobbyist photographer focused on nature landscapes, portrait, and sepia-themed shots.
+                    Hope you like it!
+                </p>
 
-            <div class="photogrid-main w3-row-padding">
-                <div class="w3-half">
-                    <img src={photogrid1} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
-                    <img src={photogrid2} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
-                    <img src={photogrid3} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
-                    <img src={photogrid4} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
-                </div>
+                <div class="photogrid-main w3-row-padding">
+                    <div class="w3-half">
+                        <img src={photogrid1} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+                        <img src={photogrid2} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+                        <img src={photogrid3} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+                        <img src={photogrid4} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+                    </div>
 
-                <div class="w3-half">
-                    <img src={photogrid5} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
-                    <img src={photogrid6} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
-                    <img src={photogrid7} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
-                    <img src={photogrid8} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+                    <div class="w3-half">
+                        <img src={photogrid5} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+                        <img src={photogrid6} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+                        <img src={photogrid7} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+                        <img src={photogrid8} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+                    </div>
                 </div>
             </div>
-
         </section>
     )
 }

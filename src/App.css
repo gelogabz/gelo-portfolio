@@ -8,7 +8,7 @@
 
 /* orig stylings */
 .w3-sidebar {
-  width: 120px;
+  width: 7rem;
   background: #222;
 }
 
@@ -29,4 +29,8 @@
 
 .photo-grid-pic {
   width: 100%;
+}
+
+.skills-item {
+  height: 28px;
 }

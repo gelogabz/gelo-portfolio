@@ -2,25 +2,16 @@ import React from 'react'
 
 function Contact() {
     return (
-        <section class="w3-content w3-justify w3-text-light-grey w3-padding-64 container-fluid">
+        <section class="w3-content w3-text-light-grey w3-padding-64 container-fluid">
             <h2 class="text-light fw-bolder">How to reach me</h2>
             <hr class="w3-opacity" />
-            <div>
-
+            <div class='container display-6 d-block py-3'>
+                <ul class='list-unstyled'>
+                    <li><a href="mailto:gabrielgelo93@gmail.com" ><i class="fa-solid fa-envelope py-3"><span class="display-5 w3-wide text-light"> Send me an email!</span></i></a></li>
+                    <li><a href="tel:+639276368125" ><i class="fa-solid fa-envelope py-3"><span class="display-5 w3-wide text-light"> Send me a message!</span></i></a></li>
+                    <li><a href="https://www.google.com/maps/place/Pasay,+Metro+Manila/@14.5227486,120.9947871,14.04z/data=!4m5!3m4!1s0x3397c949f8efe26d:0x954cef4739256660!8m2!3d14.5377516!4d121.0013794" target="_blank" rel="noreferrer"><i class="fa-solid fa-envelope py-3"><span class="display-5 w3-wide text-light"> Meet me here!</span></i></a></li>
+                </ul>
             </div>
-            <p>I am a Full-stack Web Developer, future UX Designer, and self-taught Digital Content
-                Specialist seeking a position in <strong>Web Development</strong>, Web Design, Content Management,
-                Project Management, React-related, and Laravel-related Programs with robust
-                problem-solving skills and proven experience in organized content and planning UI/UX
-                improvements in a test-driven environment.
-
-                <br /><br />No matter which industry or company I am in, I have been given feedback that my strengths include high
-                intelligence, both in an intellectual and emotional state, a quick and keen learner, very tech-savvy,
-                infamously curious, amazing in communication, and highly creative.
-
-                <br /><br />Outside the office, however, I am an avid adventurer anywhere from sea to summit, I am a musician, a
-                bookworm, and a gamer.
-            </p>
         </section>
     )
 }

@@ -28,8 +28,8 @@ function Navbar() {
                 </Link>
             </nav>
 
-            <div class="w3-top w3-hide-large w3-hide-medium mx-auto" id="myNavbar">
-                <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <div class="w3-top w3-hide-large w3-hide-medium mx-auto w3-center" id="myNavbar">
+                <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-medium">
                     <Link to="/About" class="w3-bar-item w3-button" >ABOUT</Link>
                     <Link to="/Projects" class="w3-bar-item w3-button" >PROJECTS</Link>
                     <Link to="/Gallery" class="w3-bar-item w3-button" >GALLERY</Link>
