@@ -42,6 +42,11 @@ function About() {
                             </tr>
                         </thead>
                         <Employmenttable
+                            employmentDate="Mar 2023 - Aug 2023"
+                            lastEmployer="Voltec Solutions OPC "
+                            jobRole="Web Developer"
+                            jobSummary="Developed and maintained websites and web applications for Japanese clients using front-end tech stacks." />
+                        <Employmenttable
                             employmentDate="Dec 2017 - Jan 2023"
                             lastEmployer="Grab PH"
                             jobRole="Digital Content Specialist"

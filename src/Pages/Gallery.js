@@ -27,6 +27,7 @@ function Gallery() {
                         <img src={photogrid2} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
                         <img src={photogrid3} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
                         <img src={photogrid4} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
+
                     </div>
 
                     <div class="w3-half">
@@ -35,7 +36,10 @@ function Gallery() {
                         <img src={photogrid7} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
                         <img src={photogrid8} alt='photogrid' class="photo-grid-pic m-2 img-thumbnail" />
                     </div>
+
                 </div>
+
+
             </div>
         </section>
     )
