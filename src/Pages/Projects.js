@@ -5,7 +5,13 @@ import puppergram from '../assets/logos/puppergram.jpg'
 import unopalooza from '../assets/logos/unopalooza.jpg'
 import leavenothing from '../assets/logos/leavenothing.png'
 import furlinks from '../assets/logos/furlinks.png'
-import gustomoyarn from '../assets/logos/gustomoyarn.png'
+import hyeg from '../assets/logos/hamamatsuchamberofcommercelogoc.png'
+import code from '../assets/logos/code-coder-codes-coding.jpg'
+import lifesupp from '../assets/logos/lifesuppo.png'
+import maeda from '../assets/logos/maeda.png'
+import mori from '../assets/logos/mori.png'
+import aladdin from '../assets/logos/aladdin.png'
+import hanamizuki from '../assets/logos/hanamizuki-logo_mark.png'
 
 function Projects() {
     return (
@@ -19,14 +25,72 @@ function Projects() {
                 <aside class="container-fluid row row-cols-lg-2">
                     <div class="col-lg-8">
                         <h3 class="w3-padding-16 w3-text-light-grey">My Projects</h3>
-                        <div>
-                            <div class=' border border-3 rounded-3 px-3'>
+                        <div >
+                            <div class=' border border-3 rounded-3 px-3 overflow-auto' style={{ height: '1220px', margin: 'auto' }}>
+                                <Projcards
+                                    projTitle="Hanamizuki Chiropractic"
+                                    projTools="HTML, CSS, JS, JQuery	"
+                                    projDesc="Served as the main Front-end Developer to build this project"
+                                    projLogo={hanamizuki}
+                                    projLink="https://hanamizuki-seitai.jp/"
+                                />
+
+                                <Projcards
+                                    projTitle="Aladdin Aesthetic"
+                                    projTools="HTML, CSS, JS, JQuery	"
+                                    projDesc="Served as the main Front-end Developer to build this project"
+                                    projLogo={aladdin}
+                                    projLink="https://www.esthe-aladdin.jp/"
+                                />
+
+                                <Projcards
+                                    projTitle="Mori No Shion"
+                                    projTools="HTML, CSS, JS, JQuery	"
+                                    projDesc="Served as the main Front-end Developer to build this project"
+                                    projLogo={mori}
+                                    projLink="https://www.morinosion.com/"
+                                />
+
+                                <Projcards
+                                    projTitle="Maeda Chiropractic"
+                                    projTools="HTML, CSS, JS, JQuery	"
+                                    projDesc="Served as the main Front-end Developer to build this website using an existing one"
+                                    projLogo={maeda}
+                                    projLink="https://www.maedachiro.com/"
+                                />
+
+                                <Projcards
+                                    projTitle="Life Support Center Tomonokai"
+                                    projTools="HTML, CSS, JS, JQuery, Bootstrap	"
+                                    projDesc="Served as a Front-end Developer To rebuild the client's website using modern design standards"
+                                    projLogo={lifesupp}
+                                    projLink="https://www.lifesuppo.jp/"
+                                />
+
+                                <Projcards
+                                    projTitle="Loopus Invoice System"
+                                    projTools="HTML, CSS, JS, PHP, JQuery, PostgreSQL, Laravel 10"
+                                    projDesc="Served as the Senior Developer and main Front-end Developer to create an internal invoicing system based on an original tool"
+                                    projLogo={code}
+                                // projLink="https://hyeg.jp/s"
+                                />
+
+                                <Projcards
+                                    projTitle="Hamamatsu YEG Mobile Site"
+                                    projTools="HTML, CSS, JS, JQuery, PHP"
+                                    projDesc="Served as main Front-end Developer to create the mobile view for the HYEG website"
+                                    projLogo={hyeg}
+                                    projLink="https://hyeg.jp/s"
+                                />
+
                                 <Projcards
                                     projTitle="Furlinks.Space"
-                                    projTools="Laravel, HTML/CSS/JavaScript, Bootstrap, Hostinger" projDesc="Assisted initially as the Project Manager with collecting initial assets as well as the provision of a hosting service and a domain."
+                                    projTools="Laravel, HTML/CSS/JavaScript, Bootstrap, Hostinger"
+                                    projDesc="Assisted initially as the Project Manager with collecting initial assets as well as the provision of a hosting service and a domain."
                                     projLogo={furlinks}
                                     projLink="http://furlinks.space"
                                 />
+
                                 <Projcards
                                     projTitle="LeaveNothing.Org"
                                     projTools="HTML/CSS/JavaScript, Bootstrap"
@@ -53,14 +117,6 @@ function Projects() {
                                     projLink="https://gelogabz.github.io/WD20P-Mini-Project-1A/"
                                 />
 
-                                <Projcards
-                                    projTitle="Gusto mo Yarn?"
-                                    projTools="React.js, HTML/CSS/JavaScript and Bootstrap"
-                                    projDesc="Built this portfolio with blogging and gallery components for a loved one to
-                                    showcase their crochet works as well as any other skillset they wanted to add
-                                    in"
-                                    projLogo={gustomoyarn}
-                                />
                             </div>
                         </div>
                     </div>
